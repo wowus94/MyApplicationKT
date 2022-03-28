@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application KT</string>
+    <string name="hello_button">Поздороваться</string>
+</resources>

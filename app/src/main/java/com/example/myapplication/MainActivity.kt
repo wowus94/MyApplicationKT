@@ -11,7 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d("myLogs", "${data.toString()}")
+        val data = Data ("Vladimir",27)
+        val data2 = data.copy()
+        data2.name = "Toly"
+        data2.age = 30
+
+        Log.d("myLogs", "Data age: $data")
+        Log.d("myLogs", "Data age: $data2")
     }
 
     fun hello(view: View) {
